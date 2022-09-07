@@ -5,10 +5,23 @@
     <div class="main-content">
         <div class="main-container">
 
-            <button class="btn-main">Load More</button>
+            @foreach ($comics as $comic )
+            
+                <div class="card">
 
+                    <div class="card-image">
+                        <img src="{{ $comic->image }}" alt="{{ $comic->type }}">
+                    </div>
+
+                    <h5>{{ $comic->title }}</h5>    
+                </div>
+
+            @endforeach
+
+            <button class="btn-main">Load More</button>
         </div>
     </div>
+
     <div class="banner-shop">
         <div class="container">
             <div>
@@ -17,6 +30,7 @@
             </div>
         </div>
     </div>
+
     <div class="content-bottom">
         <div class="container">
             <ul>
