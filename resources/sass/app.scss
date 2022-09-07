@@ -4,6 +4,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 
+    //inizio header
     header{
         .container{
             padding: 20px;
@@ -43,7 +44,132 @@ body{
                 padding: 5px 15px 30px 15px;
             }
         }
+
+        .jumbotron{
+            background-image: url('../../public/assets/jumbotron.jpg');
+            height: 400px;
+
+            p{
+                background-color: $mainShopBg;
+                position: relative;
+                width: 20%;
+                left: 0;
+                top: 370px;
+                text-transform: uppercase;
+                font-size: 25px;
+                font-weight: bold;
+                color: white;
+                padding: 10px;
+            }
+
+            .header-container {
+                width: 1200px;
+                margin: 0 auto;
+            }
+        }
+
     }
+    //fine header
+
+    //inizio main
+    main{
+        overflow: hidden;
+        .main-content {
+            background-color: $headerBannerBg;
+            padding: 50px;
+    
+            .main-container {
+                width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+    
+              .btn-main{
+                    margin: 0 auto;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    background-color: $mainShopBg;
+                    border-color: $mainShopBg;
+                    padding: 10px 40px;
+                }
+            }
+        }
+
+        .banner-shop {
+            padding: 50px;
+            background-color: $mainShopBg;
+            position: relative;
+        
+            .container {
+                width: 1200px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+            
+                div {
+                    display: flex;
+                    align-items: center;
+            
+                    img {
+                        height: 50px;
+                    }
+                }
+            }
+        
+        }
+        
+        a{
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        .content-bottom {
+            background-image: url('../../public/assets/footer-bg.jpg');
+            padding: 30px;
+        
+            .container{
+                position: relative;
+                width: 1200px;
+                margin: 0 auto;
+                display: flex;
+        
+                .pos{
+                    position: absolute;
+                    top: -90px;
+                    right: 0;
+                    background-image: url('../../public/assets/dc-logo-bg.png');
+                }
+        
+                ul{
+                    margin-top: 30px;
+                    margin-right: 30px;
+                    h2{
+                        color: white;
+                        margin: 10px 0px;
+                    }
+        
+                    li{
+                        list-style: none;
+                        line-height: 25px;
+                        font-size: 13px;
+        
+                        a{
+                            color: $iconFooterColor;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //fine main
+
+
+
+
 
 
 

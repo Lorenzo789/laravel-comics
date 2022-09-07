@@ -9,4 +9,10 @@
             </ul>
         </nav>
     </div>
+
+    <div class="jumbotron">
+        <div class="header-container">
+            <p>current series</p>
+        </div>
+    </div>
 </header>
