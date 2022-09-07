@@ -34,17 +34,6 @@ body{
             }
         }
 
-        .card {
-
-            width: calc(100% / 6);
-    
-            h5 {
-                color: white;
-                text-transform: uppercase;
-                padding: 5px 15px 30px 15px;
-            }
-        }
-
         .jumbotron{
             background-image: url('../../public/assets/jumbotron.jpg');
             height: 400px;
@@ -84,6 +73,17 @@ body{
                 display: flex;
                 flex-wrap: wrap;
     
+                .card {
+
+                    width: calc(100% / 6);
+            
+                    h5 {
+                        color: white;
+                        text-transform: uppercase;
+                        padding: 5px 15px 30px 15px;
+                    }
+                }
+
               .btn-main{
                     margin: 0 auto;
                     color: white;
