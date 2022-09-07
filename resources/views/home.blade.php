@@ -56,7 +56,7 @@
                     <a href="#"></a>
                 </li>
             </ul>
-            <img class="pos" src="{{url('/assets/dc-logo-bg.png')}}" alt="">
+            <img class="pos" src="{{asset('/assets/dc-logo-bg.png')}}" alt="">
         </div>
     </div>
 </main>
