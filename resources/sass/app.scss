@@ -1,1 +1,96 @@
-//
+@import 'partials/general.scss';
+@import 'partials/variables.scss';
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+    header{
+        .container{
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .active{
+            color: $colorActive;
+        }
+        
+        img{
+            height: 80px;
+        }
+        
+        li{
+            display: inline-block;
+            padding: 5px 15px;
+        
+            a{
+                color: black;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+
+        .card {
+
+            width: calc(100% / 6);
+    
+            h5 {
+                color: white;
+                text-transform: uppercase;
+                padding: 5px 15px 30px 15px;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+        background-color: $footerBg;
+        position: relative;
+        height: 106px;
+        padding: 30px;
+    
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+    
+            button{
+                padding: 15px;
+                background-color: $footerBg;
+                border: 2px solid $mainShopBg;
+                font-size: 20px;
+                color: white;
+            }
+    
+            span{
+                font-size: 30px;
+                font-weight: bold;
+                color: $mainShopBg;
+                vertical-align: super;
+                padding: 10px;
+            }
+    
+            a{
+                padding: 10px;
+            }
+        }
+    }
+}
